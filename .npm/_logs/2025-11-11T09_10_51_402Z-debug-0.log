@@ -1,0 +1,828 @@
+0 verbose cli D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node\node.exe D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.19.4
+2 info using node@v16.20.2
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node\node_modules\npm\npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:C:\Users\LENOVO\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:D:\downloadsoftware\nodejs14\node_global\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 13ms
+19 timing npm:load:configload Completed in 13ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm install
+23 verbose argv "install" "--cache" ".npm" "--no-audit"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 2ms
+26 timing npm:load:display Completed in 2ms
+27 verbose logfile logs-max:10 dir:D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\.npm\_logs
+28 verbose logfile D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\.npm\_logs\2025-11-11T09_10_51_402Z-debug-0.log
+29 timing npm:load:logFile Completed in 6ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 25ms
+33 timing arborist:ctor Completed in 0ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 167ms
+36 warn old lockfile
+36 warn old lockfile The package-lock.json file was created with an old version of npm,
+36 warn old lockfile so supplemental metadata must be fetched from the registry.
+36 warn old lockfile
+36 warn old lockfile This is a one-time fix-up, please be patient...
+36 warn old lockfile
+37 silly inflate node_modules/@esbuild/android-arm
+38 silly inflate node_modules/@esbuild/android-arm64
+39 silly inflate node_modules/@esbuild/android-x64
+40 silly inflate node_modules/@esbuild/darwin-arm64
+41 silly inflate node_modules/@esbuild/darwin-x64
+42 silly inflate node_modules/@esbuild/freebsd-arm64
+43 silly inflate node_modules/@esbuild/freebsd-x64
+44 silly inflate node_modules/@esbuild/linux-arm
+45 silly inflate node_modules/@esbuild/linux-arm64
+46 silly inflate node_modules/@esbuild/linux-ia32
+47 silly inflate node_modules/@esbuild/linux-loong64
+48 silly inflate node_modules/@esbuild/linux-mips64el
+49 silly inflate node_modules/@esbuild/linux-ppc64
+50 silly inflate node_modules/@esbuild/linux-riscv64
+51 silly inflate node_modules/@esbuild/linux-s390x
+52 silly inflate node_modules/@esbuild/linux-x64
+53 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 856ms (cache miss)
+54 silly inflate node_modules/@esbuild/netbsd-x64
+55 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 867ms (cache miss)
+56 silly inflate node_modules/@esbuild/openbsd-x64
+57 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 909ms (cache miss)
+58 silly inflate node_modules/@esbuild/sunos-x64
+59 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 910ms (cache miss)
+60 silly inflate node_modules/@esbuild/win32-arm64
+61 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 919ms (cache miss)
+62 silly inflate node_modules/@esbuild/win32-ia32
+63 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 922ms (cache miss)
+64 silly inflate node_modules/@esbuild/win32-x64
+65 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 926ms (cache miss)
+66 silly inflate node_modules/@eslint-community/eslint-utils
+67 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 928ms (cache miss)
+68 silly inflate node_modules/@eslint-community/regexpp
+69 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 933ms (cache miss)
+70 silly inflate node_modules/@eslint/eslintrc
+71 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 942ms (cache miss)
+72 silly inflate node_modules/@eslint/js
+73 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 943ms (cache miss)
+74 silly inflate node_modules/@humanwhocodes/config-array
+75 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 948ms (cache miss)
+76 silly inflate node_modules/@humanwhocodes/module-importer
+77 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 1044ms (cache miss)
+78 silly inflate node_modules/@humanwhocodes/object-schema
+79 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 1080ms (cache miss)
+80 silly inflate node_modules/@nodelib/fs.scandir
+81 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 1085ms (cache miss)
+82 silly inflate node_modules/@nodelib/fs.stat
+83 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 246ms (cache miss)
+84 silly inflate node_modules/@nodelib/fs.walk
+85 http fetch GET 200 https://registry.npmjs.org/@eslint-community%2fregexpp 225ms (cache miss)
+86 silly inflate node_modules/@rolldown/pluginutils
+87 http fetch GET 200 https://registry.npmjs.org/@eslint-community%2feslint-utils 234ms (cache miss)
+88 silly inflate node_modules/@supabase/auth-js
+89 http fetch GET 200 https://registry.npmjs.org/@eslint%2feslintrc 244ms (cache miss)
+90 silly inflate node_modules/@supabase/functions-js
+91 http fetch GET 200 https://registry.npmjs.org/@eslint%2fjs 245ms (cache miss)
+92 silly inflate node_modules/@supabase/node-fetch
+93 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 308ms (cache miss)
+94 silly inflate node_modules/@supabase/postgrest-js
+95 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 306ms (cache miss)
+96 silly inflate node_modules/@supabase/realtime-js
+97 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 310ms (cache miss)
+98 silly inflate node_modules/@supabase/storage-js
+99 http fetch GET 200 https://registry.npmjs.org/npm 1460ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes%2fconfig-array 345ms (cache miss)
+101 silly inflate node_modules/@supabase/supabase-js
+102 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes%2fmodule-importer 352ms (cache miss)
+103 silly inflate node_modules/@swc/core
+104 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 431ms (cache miss)
+105 silly inflate node_modules/@swc/core-darwin-arm64
+106 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 444ms (cache miss)
+107 silly inflate node_modules/@swc/core-darwin-x64
+108 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes%2fobject-schema 274ms (cache miss)
+109 silly inflate node_modules/@swc/core-linux-arm-gnueabihf
+110 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.stat 280ms (cache miss)
+111 silly inflate node_modules/@swc/core-linux-arm64-gnu
+112 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.walk 233ms (cache miss)
+113 silly inflate node_modules/@swc/core-linux-arm64-musl
+114 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fpluginutils 234ms (cache miss)
+115 silly inflate node_modules/@swc/core-linux-x64-gnu
+116 http fetch GET 200 https://registry.npmjs.org/@supabase%2fnode-fetch 297ms (cache miss)
+117 silly inflate node_modules/@swc/core-linux-x64-musl
+118 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.scandir 402ms (cache miss)
+119 silly inflate node_modules/@swc/core-win32-arm64-msvc
+120 http fetch GET 200 https://registry.npmjs.org/@supabase%2fauth-js 326ms (cache miss)
+121 silly inflate node_modules/@swc/core-win32-ia32-msvc
+122 http fetch GET 200 https://registry.npmjs.org/@supabase%2ffunctions-js 315ms (cache miss)
+123 silly inflate node_modules/@swc/core-win32-x64-msvc
+124 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 1499ms (cache miss)
+125 silly inflate node_modules/@swc/counter
+126 http fetch GET 200 https://registry.npmjs.org/@supabase%2frealtime-js 341ms (cache miss)
+127 silly inflate node_modules/@swc/types
+128 http fetch GET 200 https://registry.npmjs.org/@swc%2fcounter 365ms (cache miss)
+129 silly inflate node_modules/@types/node
+130 http fetch GET 200 https://registry.npmjs.org/@supabase%2fstorage-js 672ms (cache miss)
+131 silly inflate node_modules/@types/phoenix
+132 http fetch GET 200 https://registry.npmjs.org/@supabase%2fpostgrest-js 786ms (cache miss)
+133 silly inflate node_modules/@types/prop-types
+134 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore-linux-arm-gnueabihf 819ms (cache miss)
+135 silly inflate node_modules/@types/react
+136 http fetch GET 200 https://registry.npmjs.org/@swc%2ftypes 575ms (cache miss)
+137 silly inflate node_modules/@types/react-dom
+138 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore-linux-x64-musl 688ms (cache miss)
+139 silly inflate node_modules/@types/ws
+140 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore 970ms (cache miss)
+141 silly inflate node_modules/@ungap/structured-clone
+142 http fetch GET 200 https://registry.npmjs.org/@supabase%2fsupabase-js 994ms (cache miss)
+143 silly inflate node_modules/@vitejs/plugin-react-swc
+144 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore-linux-x64-gnu 903ms (cache miss)
+145 silly inflate node_modules/acorn
+146 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore-darwin-x64 1019ms (cache miss)
+147 silly inflate node_modules/acorn-jsx
+148 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore-win32-x64-msvc 863ms (cache miss)
+149 silly inflate node_modules/ajv
+150 http fetch GET 200 https://registry.npmjs.org/@types%2fphoenix 542ms (cache miss)
+151 silly inflate node_modules/ansi-regex
+152 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 445ms (cache miss)
+153 silly inflate node_modules/ansi-styles
+154 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore-win32-arm64-msvc 1008ms (cache miss)
+155 silly inflate node_modules/argparse
+156 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 351ms (cache miss)
+157 silly inflate node_modules/array-buffer-byte-length
+158 http fetch GET 200 https://registry.npmjs.org/@types%2freact 384ms (cache miss)
+159 silly inflate node_modules/array-includes
+160 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react-swc 263ms (cache miss)
+161 silly inflate node_modules/array.prototype.findlast
+162 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore-win32-ia32-msvc 1061ms (cache miss)
+163 silly inflate node_modules/array.prototype.flat
+164 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore-linux-arm64-musl 1205ms (cache miss)
+165 silly inflate node_modules/array.prototype.flatmap
+166 http fetch GET 200 https://registry.npmjs.org/@ungap%2fstructured-clone 317ms (cache miss)
+167 silly inflate node_modules/array.prototype.tosorted
+168 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore-darwin-arm64 1313ms (cache miss)
+169 silly inflate node_modules/arraybuffer.prototype.slice
+170 http fetch GET 200 https://registry.npmjs.org/acorn-jsx 292ms (cache miss)
+171 silly inflate node_modules/async-function
+172 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore-linux-arm64-gnu 1308ms (cache miss)
+173 silly inflate node_modules/available-typed-arrays
+174 http fetch GET 200 https://registry.npmjs.org/ajv 317ms (cache miss)
+175 silly inflate node_modules/balanced-match
+176 http fetch GET 200 https://registry.npmjs.org/ansi-regex 238ms (cache miss)
+177 silly inflate node_modules/brace-expansion
+178 http fetch GET 200 https://registry.npmjs.org/@types%2fws 533ms (cache miss)
+179 silly inflate node_modules/call-bind
+180 http fetch GET 200 https://registry.npmjs.org/argparse 216ms (cache miss)
+181 silly inflate node_modules/call-bind-apply-helpers
+182 http fetch GET 200 https://registry.npmjs.org/array-buffer-byte-length 216ms (cache miss)
+183 silly inflate node_modules/call-bound
+184 http fetch GET 200 https://registry.npmjs.org/ansi-styles 267ms (cache miss)
+185 silly inflate node_modules/callsites
+186 http fetch GET 200 https://registry.npmjs.org/array-includes 204ms (cache miss)
+187 silly inflate node_modules/chalk
+188 http fetch GET 200 https://registry.npmjs.org/acorn 469ms (cache miss)
+189 silly inflate node_modules/color-convert
+190 http fetch GET 200 https://registry.npmjs.org/array.prototype.flat 228ms (cache miss)
+191 silly inflate node_modules/color-name
+192 http fetch GET 200 https://registry.npmjs.org/array.prototype.findlast 240ms (cache miss)
+193 silly inflate node_modules/concat-map
+194 http fetch GET 200 https://registry.npmjs.org/array.prototype.tosorted 226ms (cache miss)
+195 silly inflate node_modules/cross-spawn
+196 http fetch GET 200 https://registry.npmjs.org/array.prototype.flatmap 267ms (cache miss)
+197 silly inflate node_modules/csstype
+198 http fetch GET 200 https://registry.npmjs.org/async-function 253ms (cache miss)
+199 silly inflate node_modules/data-view-buffer
+200 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers 235ms (cache miss)
+201 silly inflate node_modules/data-view-byte-length
+202 http fetch GET 200 https://registry.npmjs.org/brace-expansion 262ms (cache miss)
+203 silly inflate node_modules/data-view-byte-offset
+204 http fetch GET 200 https://registry.npmjs.org/call-bound 243ms (cache miss)
+205 silly inflate node_modules/debug
+206 http fetch GET 200 https://registry.npmjs.org/call-bind 253ms (cache miss)
+207 silly inflate node_modules/deep-is
+208 http fetch GET 200 https://registry.npmjs.org/callsites 246ms (cache miss)
+209 silly inflate node_modules/define-data-property
+210 http fetch GET 200 https://registry.npmjs.org/available-typed-arrays 357ms (cache miss)
+211 silly inflate node_modules/define-properties
+212 http fetch GET 200 https://registry.npmjs.org/color-name 250ms (cache miss)
+213 silly inflate node_modules/doctrine
+214 http fetch GET 200 https://registry.npmjs.org/chalk 304ms (cache miss)
+215 silly inflate node_modules/dunder-proto
+216 http fetch GET 200 https://registry.npmjs.org/color-convert 273ms (cache miss)
+217 silly inflate node_modules/es-abstract
+218 http fetch GET 200 https://registry.npmjs.org/arraybuffer.prototype.slice 427ms (cache miss)
+219 silly inflate node_modules/es-define-property
+220 http fetch GET 200 https://registry.npmjs.org/concat-map 252ms (cache miss)
+221 silly inflate node_modules/es-errors
+222 http fetch GET 200 https://registry.npmjs.org/csstype 234ms (cache miss)
+223 silly inflate node_modules/es-iterator-helpers
+224 http fetch GET 200 https://registry.npmjs.org/cross-spawn 354ms (cache miss)
+225 silly inflate node_modules/es-object-atoms
+226 http fetch GET 200 https://registry.npmjs.org/balanced-match 545ms (cache miss)
+227 silly inflate node_modules/es-set-tostringtag
+228 http fetch GET 200 https://registry.npmjs.org/data-view-buffer 377ms (cache miss)
+229 silly inflate node_modules/es-shim-unscopables
+230 http fetch GET 200 https://registry.npmjs.org/data-view-byte-length 305ms (cache miss)
+231 silly inflate node_modules/es-to-primitive
+232 http fetch GET 200 https://registry.npmjs.org/deep-is 294ms (cache miss)
+233 silly inflate node_modules/esbuild
+234 http fetch GET 200 https://registry.npmjs.org/data-view-byte-offset 309ms (cache miss)
+235 silly inflate node_modules/escape-string-regexp
+236 http fetch GET 200 https://registry.npmjs.org/debug 304ms (cache miss)
+237 silly inflate node_modules/eslint
+238 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 1406ms (cache miss)
+239 silly inflate node_modules/eslint-plugin-react
+240 http fetch GET 200 https://registry.npmjs.org/define-data-property 313ms (cache miss)
+241 silly inflate node_modules/eslint-plugin-react/node_modules/doctrine
+242 http fetch GET 200 https://registry.npmjs.org/dunder-proto 295ms (cache miss)
+243 silly inflate node_modules/eslint-plugin-react-hooks
+244 http fetch GET 200 https://registry.npmjs.org/es-errors 292ms (cache miss)
+245 silly inflate node_modules/eslint-plugin-react-refresh
+246 http fetch GET 200 https://registry.npmjs.org/es-define-property 295ms (cache miss)
+247 silly inflate node_modules/eslint-scope
+248 http fetch GET 200 https://registry.npmjs.org/doctrine 305ms (cache miss)
+249 silly inflate node_modules/eslint-visitor-keys
+250 http fetch GET 200 https://registry.npmjs.org/define-properties 315ms (cache miss)
+251 silly inflate node_modules/espree
+252 http fetch GET 200 https://registry.npmjs.org/es-abstract 312ms (cache miss)
+253 silly inflate node_modules/esquery
+254 http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag 212ms (cache miss)
+255 silly inflate node_modules/esrecurse
+256 http fetch GET 200 https://registry.npmjs.org/es-iterator-helpers 343ms (cache miss)
+257 silly inflate node_modules/estraverse
+258 http fetch GET 200 https://registry.npmjs.org/es-object-atoms 266ms (cache miss)
+259 silly inflate node_modules/esutils
+260 http fetch GET 200 https://registry.npmjs.org/es-to-primitive 270ms (cache miss)
+261 silly inflate node_modules/fast-deep-equal
+262 http fetch GET 200 https://registry.npmjs.org/es-shim-unscopables 287ms (cache miss)
+263 silly inflate node_modules/fast-json-stable-stringify
+264 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 287ms (cache miss)
+265 silly inflate node_modules/fast-levenshtein
+266 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-react 334ms (cache miss)
+267 silly inflate node_modules/fastq
+268 http fetch GET 200 https://registry.npmjs.org/eslint 357ms (cache miss)
+269 silly inflate node_modules/file-entry-cache
+270 http fetch GET 200 https://registry.npmjs.org/eslint-scope 301ms (cache miss)
+271 silly inflate node_modules/find-up
+272 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-react-refresh 316ms (cache miss)
+273 silly inflate node_modules/flat-cache
+274 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys 342ms (cache miss)
+275 silly inflate node_modules/flatted
+276 http fetch GET 200 https://registry.npmjs.org/espree 339ms (cache miss)
+277 silly inflate node_modules/for-each
+278 http fetch GET 200 https://registry.npmjs.org/esbuild 443ms (cache miss)
+279 silly inflate node_modules/fs.realpath
+280 http fetch GET 200 https://registry.npmjs.org/esrecurse 282ms (cache miss)
+281 silly inflate node_modules/fsevents
+282 http fetch GET 200 https://registry.npmjs.org/esutils 280ms (cache miss)
+283 silly inflate node_modules/function-bind
+284 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 205ms (cache miss)
+285 silly inflate node_modules/function.prototype.name
+286 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify 247ms (cache miss)
+287 silly inflate node_modules/functions-have-names
+288 http fetch GET 200 https://registry.npmjs.org/fastq 217ms (cache miss)
+289 silly inflate node_modules/generator-function
+290 http fetch GET 200 https://registry.npmjs.org/doctrine 555ms (cache miss)
+291 silly inflate node_modules/get-intrinsic
+292 http fetch GET 200 https://registry.npmjs.org/esquery 560ms (cache miss)
+293 silly inflate node_modules/get-proto
+294 http fetch GET 200 https://registry.npmjs.org/find-up 280ms (cache miss)
+295 silly inflate node_modules/get-symbol-description
+296 http fetch GET 200 https://registry.npmjs.org/flat-cache 271ms (cache miss)
+297 silly inflate node_modules/glob
+298 http fetch GET 200 https://registry.npmjs.org/file-entry-cache 293ms (cache miss)
+299 silly inflate node_modules/glob-parent
+300 http fetch GET 200 https://registry.npmjs.org/for-each 241ms (cache miss)
+301 silly inflate node_modules/globals
+302 http fetch GET 200 https://registry.npmjs.org/flatted 265ms (cache miss)
+303 silly inflate node_modules/globalthis
+304 http fetch GET 200 https://registry.npmjs.org/fs.realpath 251ms (cache miss)
+305 silly inflate node_modules/gopd
+306 http fetch GET 200 https://registry.npmjs.org/function-bind 233ms (cache miss)
+307 silly inflate node_modules/graphemer
+308 http fetch GET 200 https://registry.npmjs.org/function.prototype.name 248ms (cache miss)
+309 silly inflate node_modules/has-bigints
+310 http fetch GET 200 https://registry.npmjs.org/fast-levenshtein 458ms (cache miss)
+311 silly inflate node_modules/has-flag
+312 http fetch GET 200 https://registry.npmjs.org/functions-have-names 227ms (cache miss)
+313 silly inflate node_modules/has-property-descriptors
+314 http fetch GET 200 https://registry.npmjs.org/generator-function 216ms (cache miss)
+315 silly inflate node_modules/has-proto
+316 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 262ms (cache miss)
+317 silly inflate node_modules/has-symbols
+318 http fetch GET 200 https://registry.npmjs.org/get-proto 205ms (cache miss)
+319 silly inflate node_modules/has-tostringtag
+320 http fetch GET 200 https://registry.npmjs.org/fsevents 405ms (cache miss)
+321 silly inflate node_modules/hasown
+322 http fetch GET 200 https://registry.npmjs.org/get-symbol-description 208ms (cache miss)
+323 silly inflate node_modules/ignore
+324 http fetch GET 200 https://registry.npmjs.org/globalthis 211ms (cache miss)
+325 silly inflate node_modules/import-fresh
+326 http fetch GET 200 https://registry.npmjs.org/glob 250ms (cache miss)
+327 silly inflate node_modules/imurmurhash
+328 http fetch GET 200 https://registry.npmjs.org/glob-parent 252ms (cache miss)
+329 silly inflate node_modules/inflight
+330 http fetch GET 200 https://registry.npmjs.org/gopd 226ms (cache miss)
+331 silly inflate node_modules/inherits
+332 http fetch GET 200 https://registry.npmjs.org/globals 258ms (cache miss)
+333 silly inflate node_modules/internal-slot
+334 http fetch GET 200 https://registry.npmjs.org/graphemer 237ms (cache miss)
+335 silly inflate node_modules/is-array-buffer
+336 http fetch GET 200 https://registry.npmjs.org/has-flag 203ms (cache miss)
+337 silly inflate node_modules/is-async-function
+338 http fetch GET 200 https://registry.npmjs.org/has-bigints 230ms (cache miss)
+339 silly inflate node_modules/is-bigint
+340 http fetch GET 200 https://registry.npmjs.org/has-property-descriptors 236ms (cache miss)
+341 silly inflate node_modules/is-boolean-object
+342 http fetch GET 200 https://registry.npmjs.org/has-proto 253ms (cache miss)
+343 silly inflate node_modules/is-callable
+344 http fetch GET 200 https://registry.npmjs.org/has-symbols 211ms (cache miss)
+345 silly inflate node_modules/is-core-module
+346 http fetch GET 200 https://registry.npmjs.org/estraverse 875ms (cache miss)
+347 silly inflate node_modules/is-data-view
+348 http fetch GET 200 https://registry.npmjs.org/has-tostringtag 216ms (cache miss)
+349 silly inflate node_modules/is-date-object
+350 http fetch GET 200 https://registry.npmjs.org/hasown 225ms (cache miss)
+351 silly inflate node_modules/is-extglob
+352 http fetch GET 200 https://registry.npmjs.org/inherits 192ms (cache miss)
+353 silly inflate node_modules/is-finalizationregistry
+354 http fetch GET 200 https://registry.npmjs.org/inflight 196ms (cache miss)
+355 silly inflate node_modules/is-generator-function
+356 http fetch GET 200 https://registry.npmjs.org/imurmurhash 209ms (cache miss)
+357 silly inflate node_modules/is-glob
+358 http fetch GET 200 https://registry.npmjs.org/internal-slot 206ms (cache miss)
+359 silly inflate node_modules/is-map
+360 http fetch GET 200 https://registry.npmjs.org/is-async-function 219ms (cache miss)
+361 silly inflate node_modules/is-negative-zero
+362 http fetch GET 200 https://registry.npmjs.org/is-bigint 244ms (cache miss)
+363 silly inflate node_modules/is-number-object
+364 http fetch GET 200 https://registry.npmjs.org/is-boolean-object 238ms (cache miss)
+365 silly inflate node_modules/is-path-inside
+366 http fetch GET 200 https://registry.npmjs.org/import-fresh 415ms (cache miss)
+367 silly inflate node_modules/is-regex
+368 http fetch GET 200 https://registry.npmjs.org/ignore 461ms (cache miss)
+369 silly inflate node_modules/is-set
+370 http fetch GET 200 https://registry.npmjs.org/is-extglob 239ms (cache miss)
+371 silly inflate node_modules/is-shared-array-buffer
+372 http fetch GET 200 https://registry.npmjs.org/is-data-view 277ms (cache miss)
+373 silly inflate node_modules/is-string
+374 http fetch GET 200 https://registry.npmjs.org/is-callable 296ms (cache miss)
+375 silly inflate node_modules/is-symbol
+376 http fetch GET 200 https://registry.npmjs.org/is-core-module 286ms (cache miss)
+377 silly inflate node_modules/is-typed-array
+378 http fetch GET 200 https://registry.npmjs.org/is-finalizationregistry 228ms (cache miss)
+379 silly inflate node_modules/is-weakmap
+380 http fetch GET 200 https://registry.npmjs.org/is-date-object 261ms (cache miss)
+381 silly inflate node_modules/is-weakref
+382 http fetch GET 200 https://registry.npmjs.org/is-generator-function 229ms (cache miss)
+383 silly inflate node_modules/is-weakset
+384 http fetch GET 200 https://registry.npmjs.org/is-glob 223ms (cache miss)
+385 silly inflate node_modules/isarray
+386 http fetch GET 200 https://registry.npmjs.org/is-map 230ms (cache miss)
+387 silly inflate node_modules/isexe
+388 http fetch GET 200 https://registry.npmjs.org/is-negative-zero 234ms (cache miss)
+389 silly inflate node_modules/iterator.prototype
+390 http fetch GET 200 https://registry.npmjs.org/is-number-object 222ms (cache miss)
+391 silly inflate node_modules/js-tokens
+392 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-react-hooks 1385ms (cache miss)
+393 silly inflate node_modules/js-yaml
+394 http fetch GET 200 https://registry.npmjs.org/is-path-inside 287ms (cache miss)
+395 silly inflate node_modules/json-buffer
+396 http fetch GET 200 https://registry.npmjs.org/is-regex 203ms (cache miss)
+397 silly inflate node_modules/json-schema-traverse
+398 http fetch GET 200 https://registry.npmjs.org/is-weakset 196ms (cache miss)
+399 silly inflate node_modules/json-stable-stringify-without-jsonify
+400 http fetch GET 200 https://registry.npmjs.org/is-string 217ms (cache miss)
+401 silly inflate node_modules/jsx-ast-utils
+402 http fetch GET 200 https://registry.npmjs.org/is-symbol 217ms (cache miss)
+403 silly inflate node_modules/keyv
+404 http fetch GET 200 https://registry.npmjs.org/is-shared-array-buffer 228ms (cache miss)
+405 silly inflate node_modules/levn
+406 http fetch GET 200 https://registry.npmjs.org/is-weakmap 221ms (cache miss)
+407 silly inflate node_modules/locate-path
+408 http fetch GET 200 https://registry.npmjs.org/is-set 236ms (cache miss)
+409 silly inflate node_modules/lodash.merge
+410 http fetch GET 200 https://registry.npmjs.org/isarray 223ms (cache miss)
+411 silly inflate node_modules/loose-envify
+412 http fetch GET 200 https://registry.npmjs.org/is-weakref 229ms (cache miss)
+413 silly inflate node_modules/math-intrinsics
+414 http fetch GET 200 https://registry.npmjs.org/is-typed-array 238ms (cache miss)
+415 silly inflate node_modules/minimatch
+416 http fetch GET 200 https://registry.npmjs.org/isexe 229ms (cache miss)
+417 silly inflate node_modules/ms
+418 http fetch GET 200 https://registry.npmjs.org/iterator.prototype 204ms (cache miss)
+419 silly inflate node_modules/nanoid
+420 http fetch GET 200 https://registry.npmjs.org/js-tokens 233ms (cache miss)
+421 silly inflate node_modules/natural-compare
+422 http fetch GET 200 https://registry.npmjs.org/is-array-buffer 769ms (cache miss)
+423 silly inflate node_modules/object-assign
+424 http fetch GET 200 https://registry.npmjs.org/json-buffer 209ms (cache miss)
+425 silly inflate node_modules/object-inspect
+426 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse 222ms (cache miss)
+427 silly inflate node_modules/object-keys
+428 http fetch GET 200 https://registry.npmjs.org/js-yaml 281ms (cache miss)
+429 silly inflate node_modules/object.assign
+430 http fetch GET 200 https://registry.npmjs.org/json-stable-stringify-without-jsonify 216ms (cache miss)
+431 silly inflate node_modules/object.entries
+432 http fetch GET 200 https://registry.npmjs.org/levn 212ms (cache miss)
+433 silly inflate node_modules/object.fromentries
+434 http fetch GET 200 https://registry.npmjs.org/loose-envify 209ms (cache miss)
+435 silly inflate node_modules/object.values
+436 http fetch GET 200 https://registry.npmjs.org/jsx-ast-utils 238ms (cache miss)
+437 silly inflate node_modules/once
+438 http fetch GET 200 https://registry.npmjs.org/locate-path 229ms (cache miss)
+439 silly inflate node_modules/optionator
+440 http fetch GET 200 https://registry.npmjs.org/math-intrinsics 221ms (cache miss)
+441 silly inflate node_modules/own-keys
+442 http fetch GET 200 https://registry.npmjs.org/ms 203ms (cache miss)
+443 silly inflate node_modules/p-limit
+444 http fetch GET 200 https://registry.npmjs.org/lodash.merge 232ms (cache miss)
+445 silly inflate node_modules/p-locate
+446 http fetch GET 200 https://registry.npmjs.org/natural-compare 232ms (cache miss)
+447 silly inflate node_modules/parent-module
+448 http fetch GET 200 https://registry.npmjs.org/nanoid 296ms (cache miss)
+449 silly inflate node_modules/path-exists
+450 http fetch GET 200 https://registry.npmjs.org/object-assign 224ms (cache miss)
+451 silly inflate node_modules/path-is-absolute
+452 http fetch GET 200 https://registry.npmjs.org/minimatch 355ms (cache miss)
+453 silly inflate node_modules/path-key
+454 http fetch GET 200 https://registry.npmjs.org/object-inspect 213ms (cache miss)
+455 silly inflate node_modules/path-parse
+456 http fetch GET 200 https://registry.npmjs.org/object.assign 217ms (cache miss)
+457 silly inflate node_modules/picocolors
+458 http fetch GET 200 https://registry.npmjs.org/object-keys 222ms (cache miss)
+459 silly inflate node_modules/possible-typed-array-names
+460 http fetch GET 200 https://registry.npmjs.org/object.values 197ms (cache miss)
+461 silly inflate node_modules/postcss
+462 http fetch GET 200 https://registry.npmjs.org/own-keys 195ms (cache miss)
+463 silly inflate node_modules/prelude-ls
+464 http fetch GET 200 https://registry.npmjs.org/object.entries 234ms (cache miss)
+465 silly inflate node_modules/prop-types
+466 http fetch GET 200 https://registry.npmjs.org/keyv 452ms (cache miss)
+467 silly inflate node_modules/punycode
+468 http fetch GET 200 https://registry.npmjs.org/p-limit 215ms (cache miss)
+469 silly inflate node_modules/queue-microtask
+470 http fetch GET 200 https://registry.npmjs.org/optionator 222ms (cache miss)
+471 silly inflate node_modules/react
+472 http fetch GET 200 https://registry.npmjs.org/once 234ms (cache miss)
+473 silly inflate node_modules/react-dom
+474 http fetch GET 200 https://registry.npmjs.org/p-locate 278ms (cache miss)
+475 silly inflate node_modules/react-is
+476 http fetch GET 200 https://registry.npmjs.org/parent-module 222ms (cache miss)
+477 silly inflate node_modules/reflect.getprototypeof
+478 http fetch GET 200 https://registry.npmjs.org/path-exists 225ms (cache miss)
+479 silly inflate node_modules/regexp.prototype.flags
+480 http fetch GET 200 https://registry.npmjs.org/path-key 204ms (cache miss)
+481 silly inflate node_modules/resolve
+482 http fetch GET 200 https://registry.npmjs.org/picocolors 200ms (cache miss)
+483 silly inflate node_modules/resolve-from
+484 http fetch GET 200 https://registry.npmjs.org/object.fromentries 401ms (cache miss)
+485 silly inflate node_modules/reusify
+486 http fetch GET 200 https://registry.npmjs.org/prelude-ls 198ms (cache miss)
+487 silly inflate node_modules/rimraf
+488 http fetch GET 200 https://registry.npmjs.org/possible-typed-array-names 225ms (cache miss)
+489 silly inflate node_modules/rollup
+490 http fetch GET 200 https://registry.npmjs.org/path-parse 260ms (cache miss)
+491 silly inflate node_modules/run-parallel
+492 http fetch GET 200 https://registry.npmjs.org/punycode 210ms (cache miss)
+493 silly inflate node_modules/safe-array-concat
+494 http fetch GET 200 https://registry.npmjs.org/prop-types 224ms (cache miss)
+495 silly inflate node_modules/safe-push-apply
+496 http fetch GET 200 https://registry.npmjs.org/queue-microtask 212ms (cache miss)
+497 silly inflate node_modules/safe-regex-test
+498 http fetch GET 200 https://registry.npmjs.org/reflect.getprototypeof 219ms (cache miss)
+499 silly inflate node_modules/scheduler
+500 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 415ms (cache miss)
+501 silly inflate node_modules/semver
+502 http fetch GET 200 https://registry.npmjs.org/regexp.prototype.flags 235ms (cache miss)
+503 silly inflate node_modules/set-function-length
+504 http fetch GET 200 https://registry.npmjs.org/reusify 221ms (cache miss)
+505 silly inflate node_modules/set-function-name
+506 http fetch GET 200 https://registry.npmjs.org/resolve-from 230ms (cache miss)
+507 silly inflate node_modules/set-proto
+508 http fetch GET 200 https://registry.npmjs.org/resolve 262ms (cache miss)
+509 silly inflate node_modules/shebang-command
+510 http fetch GET 200 https://registry.npmjs.org/safe-array-concat 193ms (cache miss)
+511 silly inflate node_modules/shebang-regex
+512 http fetch GET 200 https://registry.npmjs.org/run-parallel 233ms (cache miss)
+513 silly inflate node_modules/side-channel
+514 http fetch GET 200 https://registry.npmjs.org/rimraf 245ms (cache miss)
+515 silly inflate node_modules/side-channel-list
+516 http fetch GET 200 https://registry.npmjs.org/safe-push-apply 218ms (cache miss)
+517 silly inflate node_modules/side-channel-map
+518 http fetch GET 200 https://registry.npmjs.org/safe-regex-test 415ms (cache miss)
+519 silly inflate node_modules/side-channel-weakmap
+520 http fetch GET 200 https://registry.npmjs.org/postcss 712ms (cache miss)
+521 silly inflate node_modules/source-map-js
+522 http fetch GET 200 https://registry.npmjs.org/set-function-name 304ms (cache miss)
+523 silly inflate node_modules/stop-iteration-iterator
+524 http fetch GET 200 https://registry.npmjs.org/set-proto 314ms (cache miss)
+525 silly inflate node_modules/string.prototype.matchall
+526 http fetch GET 200 https://registry.npmjs.org/shebang-command 316ms (cache miss)
+527 silly inflate node_modules/string.prototype.repeat
+528 http fetch GET 200 https://registry.npmjs.org/shebang-regex 306ms (cache miss)
+529 silly inflate node_modules/string.prototype.trim
+530 http fetch GET 200 https://registry.npmjs.org/side-channel 294ms (cache miss)
+531 silly inflate node_modules/string.prototype.trimend
+532 http fetch GET 200 https://registry.npmjs.org/side-channel-list 291ms (cache miss)
+533 silly inflate node_modules/string.prototype.trimstart
+534 http fetch GET 200 https://registry.npmjs.org/side-channel-map 411ms (cache miss)
+535 silly inflate node_modules/strip-ansi
+536 http fetch GET 200 https://registry.npmjs.org/semver 508ms (cache miss)
+537 silly inflate node_modules/strip-json-comments
+538 http fetch GET 200 https://registry.npmjs.org/side-channel-weakmap 285ms (cache miss)
+539 silly inflate node_modules/supports-color
+540 http fetch GET 200 https://registry.npmjs.org/rollup 753ms (cache miss)
+541 silly inflate node_modules/supports-preserve-symlinks-flag
+542 http fetch GET 200 https://registry.npmjs.org/stop-iteration-iterator 341ms (cache miss)
+543 silly inflate node_modules/text-table
+544 http fetch GET 200 https://registry.npmjs.org/string.prototype.repeat 330ms (cache miss)
+545 silly inflate node_modules/tr46
+546 http fetch GET 200 https://registry.npmjs.org/string.prototype.trimend 324ms (cache miss)
+547 silly inflate node_modules/tslib
+548 http fetch GET 200 https://registry.npmjs.org/string.prototype.matchall 339ms (cache miss)
+549 silly inflate node_modules/type-check
+550 http fetch GET 200 https://registry.npmjs.org/string.prototype.trim 346ms (cache miss)
+551 silly inflate node_modules/type-fest
+552 http fetch GET 200 https://registry.npmjs.org/string.prototype.trimstart 354ms (cache miss)
+553 silly inflate node_modules/typed-array-buffer
+554 http fetch GET 200 https://registry.npmjs.org/source-map-js 390ms (cache miss)
+555 silly inflate node_modules/typed-array-byte-length
+556 http fetch GET 200 https://registry.npmjs.org/strip-ansi 256ms (cache miss)
+557 silly inflate node_modules/typed-array-byte-offset
+558 http fetch GET 200 https://registry.npmjs.org/supports-color 218ms (cache miss)
+559 silly inflate node_modules/typed-array-length
+560 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 298ms (cache miss)
+561 silly inflate node_modules/unbox-primitive
+562 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag 294ms (cache miss)
+563 silly inflate node_modules/undici-types
+564 http fetch GET 200 https://registry.npmjs.org/type-check 200ms (cache miss)
+565 silly inflate node_modules/uri-js
+566 http fetch GET 200 https://registry.npmjs.org/tr46 214ms (cache miss)
+567 silly inflate node_modules/vite
+568 http fetch GET 200 https://registry.npmjs.org/text-table 227ms (cache miss)
+569 silly inflate node_modules/webidl-conversions
+570 http fetch GET 200 https://registry.npmjs.org/set-function-length 909ms (cache miss)
+571 silly inflate node_modules/whatwg-url
+572 http fetch GET 200 https://registry.npmjs.org/typed-array-buffer 204ms (cache miss)
+573 silly inflate node_modules/which
+574 http fetch GET 200 https://registry.npmjs.org/typed-array-byte-length 223ms (cache miss)
+575 silly inflate node_modules/which-boxed-primitive
+576 http fetch GET 200 https://registry.npmjs.org/tslib 261ms (cache miss)
+577 silly inflate node_modules/which-builtin-type
+578 http fetch GET 200 https://registry.npmjs.org/react-is 1256ms (cache miss)
+579 silly inflate node_modules/which-collection
+580 http fetch GET 200 https://registry.npmjs.org/typed-array-byte-offset 234ms (cache miss)
+581 silly inflate node_modules/which-typed-array
+582 http fetch GET 200 https://registry.npmjs.org/typed-array-length 217ms (cache miss)
+583 silly inflate node_modules/word-wrap
+584 http fetch GET 200 https://registry.npmjs.org/react-dom 1419ms (cache miss)
+585 silly inflate node_modules/wrappy
+586 http fetch GET 200 https://registry.npmjs.org/unbox-primitive 305ms (cache miss)
+587 silly inflate node_modules/ws
+588 http fetch GET 200 https://registry.npmjs.org/uri-js 221ms (cache miss)
+589 silly inflate node_modules/yocto-queue
+590 http fetch GET 200 https://registry.npmjs.org/undici-types 225ms (cache miss)
+591 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 221ms (cache miss)
+592 http fetch GET 200 https://registry.npmjs.org/whatwg-url 247ms (cache miss)
+593 http fetch GET 200 https://registry.npmjs.org/which-boxed-primitive 218ms (cache miss)
+594 http fetch GET 200 https://registry.npmjs.org/type-fest 463ms (cache miss)
+595 http fetch GET 200 https://registry.npmjs.org/which 243ms (cache miss)
+596 http fetch GET 200 https://registry.npmjs.org/which-builtin-type 226ms (cache miss)
+597 http fetch GET 200 https://registry.npmjs.org/which-collection 213ms (cache miss)
+598 http fetch GET 200 https://registry.npmjs.org/word-wrap 289ms (cache miss)
+599 http fetch GET 200 https://registry.npmjs.org/wrappy 207ms (cache miss)
+600 http fetch GET 200 https://registry.npmjs.org/ws 223ms (cache miss)
+601 http fetch GET 200 https://registry.npmjs.org/yocto-queue 206ms (cache miss)
+602 http fetch GET 200 https://registry.npmjs.org/which-typed-array 474ms (cache miss)
+603 http fetch GET 200 https://registry.npmjs.org/vite 914ms (cache miss)
+604 http fetch GET 200 https://registry.npmjs.org/scheduler 2790ms (cache miss)
+605 http fetch GET 200 https://registry.npmjs.org/react 6188ms (cache miss)
+606 timing idealTree:inflate Completed in 11491ms
+607 timing idealTree:userRequests Completed in 0ms
+608 silly idealTree buildDeps
+609 timing idealTree:#root Completed in 1ms
+610 timing idealTree:buildDeps Completed in 1ms
+611 timing idealTree:fixDepFlags Completed in 0ms
+612 timing idealTree Completed in 11661ms
+613 timing reify:loadTrees Completed in 11662ms
+614 timing reify:diffTrees Completed in 9ms
+615 silly reify moves {}
+616 timing reify:retireShallow Completed in 1ms
+617 timing reify:createSparse Completed in 20ms
+618 timing reify:loadBundles Completed in 0ms
+619 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\fsevents
+620 silly reify mark deleted [
+620 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\fsevents'
+620 silly reify ]
+621 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@swc\core-win32-ia32-msvc
+622 silly reify mark deleted [
+622 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@swc\\core-win32-ia32-msvc'
+622 silly reify ]
+623 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@swc\core-win32-arm64-msvc
+624 silly reify mark deleted [
+624 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@swc\\core-win32-arm64-msvc'
+624 silly reify ]
+625 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@swc\core-linux-x64-musl
+626 silly reify mark deleted [
+626 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@swc\\core-linux-x64-musl'
+626 silly reify ]
+627 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@swc\core-linux-x64-gnu
+628 silly reify mark deleted [
+628 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@swc\\core-linux-x64-gnu'
+628 silly reify ]
+629 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@swc\core-linux-arm64-musl
+630 silly reify mark deleted [
+630 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@swc\\core-linux-arm64-musl'
+630 silly reify ]
+631 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@swc\core-linux-arm64-gnu
+632 silly reify mark deleted [
+632 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@swc\\core-linux-arm64-gnu'
+632 silly reify ]
+633 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@swc\core-linux-arm-gnueabihf
+634 silly reify mark deleted [
+634 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@swc\\core-linux-arm-gnueabihf'
+634 silly reify ]
+635 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@swc\core-darwin-x64
+636 silly reify mark deleted [
+636 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@swc\\core-darwin-x64'
+636 silly reify ]
+637 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@swc\core-darwin-arm64
+638 silly reify mark deleted [
+638 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@swc\\core-darwin-arm64'
+638 silly reify ]
+639 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\win32-ia32
+640 silly reify mark deleted [
+640 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\win32-ia32'
+640 silly reify ]
+641 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\win32-arm64
+642 silly reify mark deleted [
+642 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\win32-arm64'
+642 silly reify ]
+643 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\sunos-x64
+644 silly reify mark deleted [
+644 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\sunos-x64'
+644 silly reify ]
+645 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\openbsd-x64
+646 silly reify mark deleted [
+646 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\openbsd-x64'
+646 silly reify ]
+647 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\netbsd-x64
+648 silly reify mark deleted [
+648 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\netbsd-x64'
+648 silly reify ]
+649 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\linux-x64
+650 silly reify mark deleted [
+650 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\linux-x64'
+650 silly reify ]
+651 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\linux-s390x
+652 silly reify mark deleted [
+652 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\linux-s390x'
+652 silly reify ]
+653 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\linux-riscv64
+654 silly reify mark deleted [
+654 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\linux-riscv64'
+654 silly reify ]
+655 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\linux-ppc64
+656 silly reify mark deleted [
+656 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\linux-ppc64'
+656 silly reify ]
+657 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\linux-mips64el
+658 silly reify mark deleted [
+658 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\linux-mips64el'
+658 silly reify ]
+659 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\linux-loong64
+660 silly reify mark deleted [
+660 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\linux-loong64'
+660 silly reify ]
+661 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\linux-ia32
+662 silly reify mark deleted [
+662 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\linux-ia32'
+662 silly reify ]
+663 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\linux-arm64
+664 silly reify mark deleted [
+664 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\linux-arm64'
+664 silly reify ]
+665 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\linux-arm
+666 silly reify mark deleted [
+666 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\linux-arm'
+666 silly reify ]
+667 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\freebsd-x64
+668 silly reify mark deleted [
+668 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\freebsd-x64'
+668 silly reify ]
+669 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\freebsd-arm64
+670 silly reify mark deleted [
+670 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\freebsd-arm64'
+670 silly reify ]
+671 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\darwin-x64
+672 silly reify mark deleted [
+672 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\darwin-x64'
+672 silly reify ]
+673 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\darwin-arm64
+674 silly reify mark deleted [
+674 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\darwin-arm64'
+674 silly reify ]
+675 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\android-x64
+676 silly reify mark deleted [
+676 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\android-x64'
+676 silly reify ]
+677 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\android-arm64
+678 silly reify mark deleted [
+678 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\android-arm64'
+678 silly reify ]
+679 verbose reify failed optional dependency D:\Personal\研一上\大模型\Web版AI旅行规划师\AITravelPlanner\node_modules\@esbuild\android-arm
+680 silly reify mark deleted [
+680 silly reify   'D:\\Personal\\研一上\\大模型\\Web版AI旅行规划师\\AITravelPlanner\\node_modules\\@esbuild\\android-arm'
+680 silly reify ]
+681 timing reifyNode:node_modules/fsevents Completed in 9ms
+682 timing reifyNode:node_modules/@swc/core-win32-ia32-msvc Completed in 9ms
+683 timing reifyNode:node_modules/@swc/core-win32-arm64-msvc Completed in 10ms
+684 timing reifyNode:node_modules/@swc/core-linux-x64-musl Completed in 10ms
+685 timing reifyNode:node_modules/@swc/core-linux-x64-gnu Completed in 10ms
+686 timing reifyNode:node_modules/@swc/core-linux-arm64-musl Completed in 10ms
+687 timing reifyNode:node_modules/@swc/core-linux-arm64-gnu Completed in 10ms
+688 timing reifyNode:node_modules/@swc/core-linux-arm-gnueabihf Completed in 10ms
+689 timing reifyNode:node_modules/@swc/core-darwin-x64 Completed in 10ms
+690 timing reifyNode:node_modules/@swc/core-darwin-arm64 Completed in 9ms
+691 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 9ms
+692 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 9ms
+693 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 9ms
+694 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 9ms
+695 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 9ms
+696 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 9ms
+697 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 9ms
+698 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 9ms
+699 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 9ms
+700 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 8ms
+701 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 8ms
+702 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 9ms
+703 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 9ms
+704 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 9ms
+705 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 9ms
+706 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 9ms
+707 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 9ms
+708 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 9ms
+709 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 9ms
+710 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 9ms
+711 timing reifyNode:node_modules/@esbuild/android-arm Completed in 9ms
+712 timing reify:unpack Completed in 12ms
+713 timing reify:unretire Completed in 0ms
+714 timing build:queue Completed in 1ms
+715 timing build:deps Completed in 2ms
+716 timing build Completed in 2ms
+717 timing reify:build Completed in 3ms
+718 timing reify:trash Completed in 8ms
+719 timing reify:save Completed in 40ms
+720 timing reify Completed in 11794ms
+721 silly ADD
+722 silly ADD
+723 silly ADD
+724 silly ADD
+725 silly ADD
+726 silly ADD
+727 silly ADD
+728 silly ADD
+729 silly ADD
+730 silly ADD
+731 silly ADD
+732 silly ADD
+733 silly ADD
+734 silly ADD
+735 silly ADD
+736 silly ADD
+737 silly ADD
+738 silly ADD
+739 silly ADD
+740 silly ADD
+741 silly ADD
+742 silly ADD
+743 silly ADD
+744 silly ADD
+745 silly ADD
+746 silly ADD
+747 silly ADD
+748 silly ADD
+749 silly ADD
+750 silly ADD
+751 silly ADD
+752 timing command:install Completed in 11803ms
+753 notice
+753 notice New major version of npm available! 8.19.4 -> 11.6.2
+753 notice Changelog: <https://github.com/npm/cli/releases/tag/v11.6.2>
+753 notice Run `npm install -g npm@11.6.2` to update!
+753 notice
+754 verbose exit 0
+755 timing npm Completed in 12041ms
+756 info ok

@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30m
+
+spring:
+  application:
+    name: AITravelPlanner
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+logging:
+  level:
+    com.travelplanner: DEBUG
+
+api:
+  keys:
+    xfyun-app-id: ${XFYUN_APP_ID:b4d63f8a}
+    xfyun-api-key: ${XFYUN_API_KEY:a7514dcbc8bb17ded7ea3438cb8e7fbd}
+    xfyun-api-secret: ${XFYUN_API_SECRET:ZWVlM2QxOWI3ZmMyNTZkMjMxOWU4NjFj}
+    #百度地图API
+    amap-key: ${AMAP_KEY:IeiQUCfb5Npu1LFCncuUFhvkM9aciVS8}
+    llm-api-key: ${LLM_API_KEY:a7514dcbc8bb17ded7ea3438cb8e7fbd}
+    llm-api-secret: ${LLM_API_SECRET:ZWVlM2QxOWI3ZmMyNTZkMjMxOWU4NjFj}
+    llm-app-id: ${LLM_APP_ID:b4d63f8a}

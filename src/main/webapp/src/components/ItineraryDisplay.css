@@ -1,0 +1,26 @@
+.itinerary-display h4 {
+  margin: 1rem 0 0.5rem 0;
+  color: #333;
+}
+
+.itinerary-display h5 {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.itinerary-item {
+  padding: 1rem;
+  border-left: 3px solid #007bff;
+  margin-bottom: 1rem;
+  background-color: #f8f9fa;
+}
+
+.itinerary-item p {
+  margin: 0.25rem 0;
+}
+
+.plan-summary p,
+.accommodation-info p,
+.transportation-info p {
+  margin: 0.25rem 0;
+}

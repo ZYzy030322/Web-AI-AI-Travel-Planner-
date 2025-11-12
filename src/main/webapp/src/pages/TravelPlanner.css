@@ -1,0 +1,12 @@
+.travel-planner .plan-result {
+  margin-top: 2rem;
+}
+
+.travel-planner textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
