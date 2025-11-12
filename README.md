@@ -1,5 +1,24 @@
 # Web版AI旅行规划师
 
+## 使用阿里云镜像快速启动
+
+### 1. 登录阿里云Container Registry
+```bash
+docker login --username=nick4081431095 crpi-2ha1tzzb1mphmj06.cn-hangzhou.personal.cr.aliyuncs.com
+```
+密码: （在提交作业的pdf文档里）
+
+### 2. 从Registry中拉取镜像
+```bash
+docker pull crpi-2ha1tzzb1mphmj06.cn-hangzhou.personal.cr.aliyuncs.com/aitravelplan/aitravelplanner:latest
+```
+
+### 3. 在本地Docker运行
+```bash
+docker run -p 8080:8080 crpi-2ha1tzzb1mphmj06.cn-hangzhou.personal.cr.aliyuncs.com/aitravelplan/aitravelplanner:latest
+```
+注意：必须指定端口号，否则前端页面无法访问（我也不知道为什么。别的端口号没试过，不知道行不行）。
+
 ## 项目简介
 
 Web版AI旅行规划师是一款基于人工智能技术的旅行规划应用，旨在简化旅行规划过程。用户可以通过语音或文字输入旅行需求，AI会自动生成详细的旅行路线和建议，并提供实时旅行辅助。
@@ -65,6 +84,7 @@ Web版AI旅行规划师是一款基于人工智能技术的旅行规划应用，
 可以通过以下方式配置：
 1. 设置环境变量
 2. 修改 `src/main/resources/application.yml` 文件中的值
+3. 修改 `src/main/webapp/components/MapSearch.jsx`中安全密钥和key
 
 ### 本地运行
 
@@ -85,7 +105,7 @@ Web版AI旅行规划师是一款基于人工智能技术的旅行规划应用，
    ```
 
 4. 访问应用：
-   打开浏览器访问 http://localhost:8080
+   打开浏览器访问 http://localhost:8080（本项目部署在8080端口，可在docker修改运行的端口号）
 
 ### Docker部署
 
@@ -197,10 +217,7 @@ test-voice-recognition.bat
 ### 3. 如何自定义AI大模型？
 项目支持更换不同的大语言模型，只需修改相关配置和实现对应的接口即可。
 
-## 贡献指南
-
-欢迎提交Issue和Pull Request来改进项目。
-
-## 许可证
-
-本项目采用MIT许可证。
+### 4. 语音识别错误
+当使用语音识别功能时，可能会遇到以下错误：
+- 错误代码10165，提示"invalid handle"：这通常是由于WebSocket连接建立时序问题导致的。请确保在WebSocket连接完全建立（onOpen回调触发）后再发送第一帧音频数据，并且首帧音频数据的status必须设置为0。
+- WebSocket连接失败，错误代码-1，提示"Software caused connection abort: socket write error"：这通常是由于网络连接不稳定或服务器端主动关闭连接导致的。建议检查网络连接状态，并确保API密钥配置正确。
