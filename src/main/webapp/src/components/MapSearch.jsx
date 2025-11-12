@@ -11,7 +11,7 @@ const MapSearch = ({ onSearch }) => {
         return;
       }
 
-      // 配置安全密钥
+      // TODO 配置安全密钥
       window._AMapSecurityConfig = {
         securityJsCode: '', // 请配置高德地图安全密钥
       };
