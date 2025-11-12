@@ -18,11 +18,12 @@ logging:
 
 api:
   keys:
-    xfyun-app-id: ${XFYUN_APP_ID:b4d63f8a}
-    xfyun-api-key: ${XFYUN_API_KEY:a7514dcbc8bb17ded7ea3438cb8e7fbd}
-    xfyun-api-secret: ${XFYUN_API_SECRET:ZWVlM2QxOWI3ZmMyNTZkMjMxOWU4NjFj}
-    #百度地图API
-    amap-key: ${AMAP_KEY:IeiQUCfb5Npu1LFCncuUFhvkM9aciVS8}
-    llm-api-key: ${LLM_API_KEY:a7514dcbc8bb17ded7ea3438cb8e7fbd}
-    llm-api-secret: ${LLM_API_SECRET:ZWVlM2QxOWI3ZmMyNTZkMjMxOWU4NjFj}
-    llm-app-id: ${LLM_APP_ID:b4d63f8a}
+    #TODO  填入相关api值
+    xfyun-app-id: ${XFYUN_APP_ID:} # 请配置讯飞语音识别App ID
+    xfyun-api-key: ${XFYUN_API_KEY:} # 请配置讯飞语音识别API Key
+    xfyun-api-secret: ${XFYUN_API_SECRET:} # 请配置讯飞语音识别API Secret
+    #高德地图API
+    amap-key: ${AMAP_KEY:} # 请配置高德地图API Key
+    llm-api-key: ${LLM_API_KEY:} # 请配置大语言模型API Key
+    llm-api-secret: ${LLM_API_SECRET:} # 请配置大语言模型API Secret
+    llm-app-id: ${LLM_APP_ID:} # 请配置大语言模型App ID

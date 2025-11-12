@@ -13,11 +13,11 @@ const MapSearch = ({ onSearch }) => {
 
       // 配置安全密钥
       window._AMapSecurityConfig = {
-        securityJsCode: '5cc65972557af47a852ea919167b7ff2',
+        securityJsCode: '', // 请配置高德地图安全密钥
       };
 
       const script = document.createElement('script');
-      script.src = 'https://webapi.amap.com/maps?v=2.0&key=c9e975e2b488df23d4cf6b3071616a79&plugin=AMap.AutoComplete';
+      script.src = 'https://webapi.amap.com/maps?v=2.0&key=&plugin=AMap.AutoComplete'; // 请配置高德地图API Key
       script.async = true;
       script.onload = () => {
         initAutoComplete();
