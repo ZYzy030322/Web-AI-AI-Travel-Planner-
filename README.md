@@ -36,16 +36,6 @@ Web版AI旅行规划师是一款基于人工智能技术的旅行规划应用，
 - 地图服务：高德地图API
 - AI大模型：科大讯飞星火认知大模型API（可替换为其他大语言模型API）
 
-## 系统架构
-
-```mermaid
-graph TD
-    A[用户界面] --> B[Spring Boot后端]
-    B --> C[语音识别服务]
-    B --> D[地图服务]
-    B --> E[AI大模型服务]
-    B --> F[数据存储]
-```
 
 ## 快速开始
 
@@ -64,7 +54,7 @@ graph TD
    - XFYUN_API_KEY
    - XFYUN_API_SECRET
 
-2. 高德地图API（用于地图功能）
+2. 高德地图API（暂时不用，在前端连接地图api）
    - AMAP_KEY
 
 3. 大语言模型API（用于AI行程规划）
@@ -99,15 +89,23 @@ graph TD
 
 ### Docker部署
 
-1. 构建Docker镜像：
+项目已经包含了Dockerfile文件，可以直接用于构建和运行容器。
+
+1. 确保已安装Docker并正常运行
+2. 构建Docker镜像：
    ```bash
    docker build -t aitravelplanner .
    ```
 
-2. 运行容器：
+3. 运行容器：
    ```bash
    docker run -p 8080:8080 aitravelplanner
    ```
+
+4. 访问应用：
+   打开浏览器访问 http://localhost:8080
+
+注意：Dockerfile中的EXPOSE指令仅声明了容器的期望端口，要从主机访问容器中的服务，必须使用`-p`参数进行端口映射。
 
 ## 开发指南
 
