@@ -1,5 +1,24 @@
 # Web版AI旅行规划师
 
+## 直接下载Docker镜像并运行
+
+1. 下载release中tag为"将本地镜像保存为文件（导出镜像）"的tar包，保存到本地。
+
+2. 加载Docker镜像：
+   ```bash
+   docker load -i /path/to/你的镜像文件.tar
+   ```
+   注意：将 `/path/to/你的镜像文件.tar` 替换为你实际保存tar包的路径。
+
+3. 运行容器：
+   ```bash
+   # 后台运行，映射 8080 端口，命名为 mycontainer
+   docker run -d -p 8080:8080 --name mycontainer myapp:v1
+   ```
+   其中 `myapp:v1` 是你导入的镜像名称和版本。
+
+   或者你也可以在Docker Desktop中运行该镜像。
+
 ## 使用阿里云镜像快速启动
 
 ### 1. 登录阿里云Container Registry
